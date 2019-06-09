@@ -29,3 +29,10 @@ function currentLine (katzDeliLine) {
     return "The line is currently:" + line;
   }
 }
+
+
+function giveANumber (katzDeliLine) {
+  let i = katzDeliLine.length
+  i++
+  katzDeliLine.push(i)
+}
